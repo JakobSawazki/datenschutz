@@ -1,0 +1,112 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 10px;
+  background-color: #333;
+  color: #3399ff; /* Hellblau */
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.kontakt-daten td, .unterschrift td {
+    padding-right: 20px; /* Horizontaler Abstand zwischen den Zellen */
+}
+.hinweis {
+    font-size: 0.80em; /* Kleinere Schriftgröße */
+    text-align: justify; /* Blocksatz */
+    word-wrap: break-word; /* Lange Wörter umbrechen */
+    line-height: 1.4; /* Anpassung der Zeilenhöhe für bessere Lesbarkeit */
+}
+.zweck-text {
+    padding-left: 20px; /* Abstand zum vorhergehenden Text */
+    font-size: 0.80em; /* Kleinere Schriftgröße */
+}
+
+.logo-container {
+  background-color: #fff; /* Weißer Hintergrund */
+  padding: 5px;
+  border-radius: 5px;
+  display: inline-block; /* Damit das Logo horizontal zentriert werden kann */
+  margin-left: 20px; /* Platz zwischen Logo und Überschrift */
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 2px solid #3399ff; /* Hellblau */
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 20px;
+  margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  color: #3399ff; /* Hellblau */
+}
+
+input[type="text"], input[type="date"] {
+  font-size: 18px;
+  margin-bottom: 10px;
+  background-color: #444; /* Dunkelgrau */
+  color: #fff; /* Weiß */
+  border: 1px solid #666; /* Grau */
+  border-radius: 5px;
+  padding: 5px;
+  width: 250px;
+}
+input[type="checkbox"] {
+  margin-right: 20px;
+}
+input[type="button"] {
+  font-size: 24px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.impressum {
+  text-align: center;
+  margin-top: 50px;
+  color: #3399ff; /* Hellblau */
+  cursor: pointer;
+}
+.impressum:hover {
+  color: #fff; /* Weiß */
+}
+.small-text {
+    font-size: 12px; /* Kleinere Schriftgröße */
+}
+.link-normal-color {
+  color: inherit;
+}
+.link-normal-color:hover {
+  color: #fff; /* Weiß */
+}
+
+.reload-container {
+  text-align: center; /* Zentriert den Submit-Button horizontal */
+  margin-top: 20px; /* Optional: Fügt Abstand oberhalb des Submit-Buttons hinzu */
+}
+
+.address {
+  display: none;
+  text-align: center; /* Zentriert den Inhalt horizontal */
+}
